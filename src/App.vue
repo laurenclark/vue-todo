@@ -1,11 +1,11 @@
 <template>
-    <div>Todo App</div>
+    <Main><h1>Todo App</h1></Main>
 </template>
 
 <script>
 export default {
     name: "App",
-    components: {}
+    components: ["Main"]
 };
 </script>
 
