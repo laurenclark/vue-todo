@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Header from "../UI/Header";
-import Footer from "../UI/Footer";
+import Header from "@/components/UI/Header";
+import Footer from "@/components/UI/Footer";
 export default {
     name: "Layout",
     components: { Header, Footer }
