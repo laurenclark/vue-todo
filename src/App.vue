@@ -1,11 +1,14 @@
 <template>
-    <Main><h1>Todo App</h1></Main>
+    <Layout><h1>Todo App</h1></Layout>
 </template>
 
 <script>
+import Layout from "./components/Layouts/Layout";
 export default {
     name: "App",
-    components: ["Main"]
+    components: {
+        Layout
+    }
 };
 </script>
 

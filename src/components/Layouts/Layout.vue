@@ -7,9 +7,11 @@
 </template>
 
 <script>
+import Header from "../UI/Header";
+import Footer from "../UI/Footer";
 export default {
-    name: "Main",
-    components: ["Header", "Footer"]
+    name: "Layout",
+    components: { Header, Footer }
 };
 </script>
 
