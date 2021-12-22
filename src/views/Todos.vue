@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import Layout from "@/components/Layouts/Layout.vue";
-import TodoForm from "@/components/Todo/TodoForm.vue";
-import TodoList from "@/components/Todo/TodoList.vue";
+import Layout from "@/components/Layout.vue";
+import TodoForm from "@/components/TodoForm.vue";
+import TodoList from "@/components/TodoList.vue";
 export default {
     name: "Todos",
     components: {

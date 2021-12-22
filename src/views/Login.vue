@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import LoginForm from "@/components/Login/LoginForm.vue";
-import Layout from "@/components/Layouts/Layout.vue";
+import LoginForm from "@/components/LoginForm.vue";
+import Layout from "@/components/Layout.vue";
 
 export default {
     name: "Login",

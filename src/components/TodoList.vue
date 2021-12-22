@@ -1,9 +1,3 @@
-<template>
-    <ul v-for="(todo, index) of todos" :key="index">
-        <TodoListItem :todo="todo" />
-    </ul>
-</template>
-
 <script>
 import TodoListItem from "./TodoListItem.vue";
 export default {
@@ -18,6 +12,12 @@ export default {
     }
 };
 </script>
+
+<template>
+    <ul v-for="(todo, index) of todos" :key="index">
+        <TodoListItem :todo="todo" />
+    </ul>
+</template>
 
 <style>
 </style>

@@ -1,3 +1,9 @@
+<script>
+export default {
+    name: "TodoListItem"
+};
+</script>
+
 <template>
     <li>
         <span
@@ -7,12 +13,6 @@
         </span>
     </li>
 </template>
-
-<script>
-export default {
-    name: "TodoListItem"
-};
-</script>
 
 <style>
 </style>
