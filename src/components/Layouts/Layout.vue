@@ -1,17 +1,17 @@
 <template>
-    <AppHeader />
+    <TheHeader />
     <main>
         <slot></slot>
     </main>
-    <AppFooter />
+    <TheFooter />
 </template>
 
 <script>
-import AppHeader from "@/components/UI/AppHeader";
-import AppFooter from "@/components/UI/AppFooter";
+import TheHeader from "@/components/UI/TheHeader";
+import TheFooter from "@/components/UI/TheFooter";
 export default {
     name: "Layout",
-    components: { AppHeader, AppFooter }
+    components: { TheHeader, TheFooter }
 };
 </script>
 
