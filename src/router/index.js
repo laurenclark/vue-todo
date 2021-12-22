@@ -3,11 +3,6 @@ import Login from "../views/Login.vue";
 
 const routes = [
     {
-        path: "/",
-        name: "Login",
-        component: Login
-    },
-    {
         path: "/todos",
         name: "Todos",
         // route level code-splitting
@@ -15,6 +10,11 @@ const routes = [
         // which is lazy-loaded when the route is visited.
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/Todos.vue")
+    },
+    {
+        path: "/",
+        name: "Login",
+        component: Login
     }
 ];
 
