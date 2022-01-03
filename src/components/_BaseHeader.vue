@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "TheHeader"
+    name: "BaseHeader"
 };
 </script>
 

@@ -1,18 +1,18 @@
 <template>
-    <Layout>
+    <BaseLayout>
         <LoginForm />
-    </Layout>
+    </BaseLayout>
 </template>
 
 <script>
 import LoginForm from "@/components/LoginForm.vue";
-import Layout from "@/components/Layout.vue";
+import BaseLayout from "@/components/_BaseLayout.vue";
 
 export default {
     name: "Login",
     components: {
         LoginForm,
-        Layout
+        BaseLayout
     }
 };
 </script>

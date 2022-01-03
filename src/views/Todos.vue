@@ -1,18 +1,18 @@
 <template>
-    <Layout>
+    <BaseLayout>
         <TodoForm />
         <TodoList />
-    </Layout>
+    </BaseLayout>
 </template>
 
 <script>
-import Layout from "@/components/Layout.vue";
+import BaseLayout from "@/components/_BaseLayout.vue";
 import TodoForm from "@/components/TodoForm.vue";
 import TodoList from "@/components/TodoList.vue";
 export default {
     name: "Todos",
     components: {
-        Layout,
+        BaseLayout,
         TodoForm,
         TodoList
     }
