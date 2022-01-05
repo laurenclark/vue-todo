@@ -1,5 +1,7 @@
 import LoginForm from "@/LoginForm.vue";
 
-test("is the login form component", () => {
-    console.log(LoginForm);
+describe("is the LoginForm Component", () => {
+    it("exports a valid component", () => {
+        expect(LoginForm).toBeAComponent();
+    });
 });
