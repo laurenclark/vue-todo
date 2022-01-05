@@ -1,5 +1,6 @@
 module.exports = {
     verbose: true,
+    snapshotSerializers: ["jest-serializer-vue"],
     roots: ["<rootDir>/src/", "<rootDir>/specs/"],
     moduleFileExtensions: ["js", "json", "vue"],
     moduleNameMapper: {
@@ -12,7 +13,6 @@ module.exports = {
             "jest-transform-stub"
     },
     setupFilesAfterEnv: ["<rootDir>/matchers"],
-    snapshotSerializers: ["<rootDir>/node_modules/jest-serializer-vue"],
     globals: {
         "vue-jest": {
             // Compilation errors in the <style> tags of Vue components will
