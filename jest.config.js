@@ -1,10 +1,10 @@
 module.exports = {
     verbose: true,
-    snapshotSerializers: ["jest-serializer-vue"],
+    snapshotSerializers: ["<rootDir>/node_modules/jest-serializer-vue"],
     roots: ["<rootDir>/src/", "<rootDir>/specs/"],
     moduleFileExtensions: ["js", "json", "vue"],
     moduleNameMapper: {
-        "^@/(.*)$": "<rootDir>/src/components/$1"
+        "^@/(./*)$": "<rootDir>/src/components/$1"
     },
     transform: {
         "^.+\\.vue$": "vue-jest",

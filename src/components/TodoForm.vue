@@ -1,12 +1,19 @@
 <script>
 export default {
-    name: "TodoForm"
+    name: "TodoForm",
+    data() {
+        return {
+            todoText: "",
+            todoDate: new Date()
+        };
+    }
 };
 </script>
 
 <template>
-    <label for="">Add Todo:</label>
-    <input type="text" />
+    <input :text="todoText" type="text" placeholder="Wash the dishes" />
+    <input :date="todoDate" type="date" />
+    <button>Add Todo</button>
 </template>
 
 <style>
