@@ -2,8 +2,12 @@ import TodoForm from "./TodoForm.vue";
 import { mount } from "@vue/test-utils";
 
 describe("is the TodoForm Component", () => {
-    it("exports a valid component", () => {
+    it("Exports a valid component", () => {
         expect(TodoForm).toBeAComponent();
+    });
+    it("Renders correctly", () => {
+        const wrapper = mount(TodoForm);
+        expect(wrapper.element).toMatchSnapshot();
     });
 });
 

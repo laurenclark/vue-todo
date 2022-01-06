@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is the TodoForm Component Renders correctly 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <input
+    placeholder="Wash the dishes"
+    text=""
+    type="text"
+  />
+  <input
+    date="Thu Jan 06 2022 00:39:37 GMT+0000 (Greenwich Mean Time)"
+    type="date"
+  />
+  <button>
+    Add Todo
+  </button>
+  
+</div>
+`;

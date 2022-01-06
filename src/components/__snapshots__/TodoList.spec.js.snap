@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The right component is rendering Renders correctly 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <ul>
+    <li>
+      <span>
+        List Item 
+        <span>
+          Thu Jan 06 2022 00:38:50 GMT+0000 (Greenwich Mean Time)
+        </span>
+        <span>
+          Delete
+        </span>
+      </span>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <span>
+        List Item 
+        <span>
+          Thu Jan 06 2022 00:38:50 GMT+0000 (Greenwich Mean Time)
+        </span>
+        <span>
+          Delete
+        </span>
+      </span>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <span>
+        List Item 
+        <span>
+          Thu Jan 06 2022 00:38:50 GMT+0000 (Greenwich Mean Time)
+        </span>
+        <span>
+          Delete
+        </span>
+      </span>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <span>
+        List Item 
+        <span>
+          Thu Jan 06 2022 00:38:50 GMT+0000 (Greenwich Mean Time)
+        </span>
+        <span>
+          Delete
+        </span>
+      </span>
+    </li>
+  </ul>
+  
+</div>
+`;
+
+exports[`is the TodoList Component exports a valid component 1`] = `
+Object {
+  "components": Object {
+    "TodoListItem": Object {
+      "name": "TodoListItem",
+      "render": [Function],
+    },
+  },
+  "data": [Function],
+  "name": "TodoForm",
+  "render": [Function],
+}
+`;
