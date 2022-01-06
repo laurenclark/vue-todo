@@ -1,4 +1,4 @@
-import TodoList from "@/TodoList.vue";
+import TodoList from "./TodoList.vue";
 
 describe("is the TodoList Component", () => {
     it("exports a valid component", () => {

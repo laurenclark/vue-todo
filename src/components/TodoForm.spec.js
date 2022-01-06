@@ -1,4 +1,4 @@
-import TodoForm from "@/TodoForm.vue";
+import TodoForm from "./TodoForm.vue";
 import { mount } from "@vue/test-utils";
 
 describe("is the TodoForm Component", () => {

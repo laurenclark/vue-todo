@@ -1,4 +1,4 @@
-import LoginForm from "@/LoginForm.vue";
+import LoginForm from "./LoginForm.vue";
 
 describe("is the LoginForm Component", () => {
     it("exports a valid component", () => {
